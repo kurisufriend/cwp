@@ -3,7 +3,7 @@
 #include <thread>
 #include "hooks.h"
 
-int runMain()
+void runMain()
 {
     std::cout << "hello" << std::endl;
     if (!hooks::setup())
